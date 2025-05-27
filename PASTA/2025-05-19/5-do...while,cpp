@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int numero;
+    
+    do {
+        cout << "Digite um numero maior que 0: ";
+        cin >> numero;
+    } while (numero <= 0);
+    
+    cout << "Numero válido! " << endl;
+
+    return 0;
+}
